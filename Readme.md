@@ -16,6 +16,7 @@ Note: URL varies based on location - see [here](https://www.mimecast.com/tech-co
 ## Account
 - Get-MimecastSupportInfo
 - Get-MimecastProducts
+- Get-MimecastNotifications
 ## Groups
 - Get-MimecastGroup
 - Get-MimecastGroupMember
