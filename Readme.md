@@ -13,6 +13,8 @@ Example:
 Note: URL varies based on location - see [here](https://www.mimecast.com/tech-connect/documentation/api-overview/global-base-urls/) for more details.
 
 # Commands
+## Account
+- Get-MimecastSupportInfo
 ## Groups
 - Get-MimecastGroup
 - Get-MimecastGroupMember
