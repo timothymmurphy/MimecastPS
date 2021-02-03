@@ -32,3 +32,4 @@ Note: URL varies based on location - see [here](https://www.mimecast.com/tech-co
 - Get-MimecastManagedURL
 - Get-MimecastDecodedURL
 - New-MimecastManagedURL
+- Remove-MimecastManagedURL
