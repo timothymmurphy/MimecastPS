@@ -31,3 +31,4 @@ Note: URL varies based on location - see [here](https://www.mimecast.com/tech-co
 ## Targeted Threat Protection URL Protect
 - Get-MimecastManagedURL
 - Get-MimecastDecodedURL
+- New-MimecastManagedURL
