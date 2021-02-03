@@ -28,3 +28,5 @@ Note: URL varies based on location - see [here](https://www.mimecast.com/tech-co
 ## Message Queues
 - Get-MimecastHeldMessages
 - Get-MimecastHeldSummary
+## Targeted Threat Protection URL Protect
+- Get-MimecastManagedURL
