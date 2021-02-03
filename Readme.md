@@ -27,3 +27,4 @@ Note: URL varies based on location - see [here](https://www.mimecast.com/tech-co
 - Remove-MimecastGroupMember
 ## Message Queues
 - Get-MimecastHeldMessages
+- Get-MimecastHeldSummary
