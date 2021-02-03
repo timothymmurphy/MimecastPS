@@ -92,7 +92,7 @@ function Get-MimecastHeldMessages {
         if ($Attachments) {$psObjBody.data.filterBy | Add-Member -Name "attachments" -Value "true" -MemberType NoteProperty}
     }
 
-    $jsonBody = $psObjBody | ConvertTo-Json
+    $jsonBody = $psObjBody | ConvertTo-Json -Depth 10
 
     $Parameters = @{
         Uri           = "/api/gateway/get-hold-message-list"
