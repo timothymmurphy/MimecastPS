@@ -30,3 +30,4 @@ Note: URL varies based on location - see [here](https://www.mimecast.com/tech-co
 - Get-MimecastHeldSummary
 ## Targeted Threat Protection URL Protect
 - Get-MimecastManagedURL
+- Get-MimecastDecodedURL
