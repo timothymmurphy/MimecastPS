@@ -1,7 +1,7 @@
 ###### Actively being developed, expect frequent changes to this repository
 
 # MimecastPS
-A PowerShell wrapper for the Mimecast API.
+A PowerShell API wrapper for Mimecast.
 
 # Setup
 
