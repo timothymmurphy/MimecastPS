@@ -23,16 +23,21 @@ function Get-MimecastManagedURL {
 
     )
 
-    $jsonBody = "{
-        ""data"": [
-            {
-            }
-        ]
-    }"
+    $Parameters = @{
+        Uri           = "/api/ttp/url/get-all-managed-urls"
+        Method        = "Post"
+    }
 
-    $psObjBody = $jsonBody | ConvertFrom-Json
 
     if ($Value) {
+        $jsonBody = "{
+            ""data"": [
+                {
+                }
+            ]
+        }"
+        $psObjBody = $jsonBody | ConvertFrom-Json
+
         $psObjBody.data | Add-Member -Name "domainOrUrl" -Value $Value -MemberType NoteProperty
 
         if ($ExactMatch) {
@@ -40,15 +45,12 @@ function Get-MimecastManagedURL {
         } else {
             $psObjBody.data | Add-Member -Name "exactMatch" -Value $false -MemberType NoteProperty
         }
+
+        $jsonBody = $psObjBody | ConvertTo-Json
+        $Parameters.Add('Body', $jsonBody)
     }
 
-    $jsonBody = $psObjBody | ConvertTo-Json
     
-    $Parameters = @{
-        Uri           = "/api/ttp/url/get-all-managed-urls"
-        Method        = "Post"
-        Body          = $jsonBody
-    }
 
     $result = Invoke-MimecastMethod @Parameters
 
