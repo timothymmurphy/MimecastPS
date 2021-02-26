@@ -22,6 +22,8 @@ A PowerShell API wrapper for Mimecast.
 - Get-MimecastProducts
 - Get-MimecastNotifications
 - Get-MimecastAccount
+## Archive
+- Search-MimecastArchive
 ## Groups
 - Get-MimecastGroup
 - Get-MimecastGroupMember
