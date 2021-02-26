@@ -1,6 +1,6 @@
 <#
     .SYNOPSIS
-    Searches the Mimecast Archive. 
+    Retrieves Message Part from the Mimecast Archive. 
     Official Mimecast documentation: https://www.mimecast.com/tech-connect/documentation/endpoint-reference/archive/get-message-part/
 
     .PARAMETER Mailbox
