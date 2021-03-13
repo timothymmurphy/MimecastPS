@@ -6,8 +6,8 @@ A PowerShell API wrapper for Mimecast.
 # Setup
 
 1. Extract `MimecastPS` folder contents to one of the following directories:
-    - `C:\Users\$username\Documents\WindowsPowerShell\Modules\` (local user scoped installation)
-    - `C:\Program Files\WindowsPowerShell\Modules\` (global system installation)
+    - `C:\Users\$username\Documents\WindowsPowerShell\Modules\MimecastPS` (local user scoped installation)
+    - `C:\Program Files\WindowsPowerShell\Modules\MimecastPS` (global system installation)
     
 2. Open PowerShell and Run `Import-Module MimecastPS` to import the module  
 
