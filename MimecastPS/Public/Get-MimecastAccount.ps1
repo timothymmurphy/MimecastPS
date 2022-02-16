@@ -24,5 +24,5 @@ function Get-MimecastAccount {
 
     $result = Invoke-MimecastMethod @Parameters
 
-    $result
+    $result.data
 }
