@@ -66,5 +66,5 @@ function Get-MimecastGroup {
 
     $result = Invoke-MimecastMethod @Parameters
 
-    $result
+    $result.data.folders
 }
