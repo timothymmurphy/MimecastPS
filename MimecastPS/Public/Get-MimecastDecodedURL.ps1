@@ -35,5 +35,5 @@ function Get-MimecastDecodedURL {
 
     $result = Invoke-MimecastMethod @Parameters
 
-    $result
+    $result.data.url
 }
