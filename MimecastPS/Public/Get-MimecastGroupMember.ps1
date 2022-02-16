@@ -57,5 +57,5 @@ function Get-MimecastGroupMember {
 
     $result = Invoke-MimecastMethod @Parameters
 
-    $result
+    $result.data.groupMembers
 }
