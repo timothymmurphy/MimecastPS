@@ -35,7 +35,7 @@ function Remove-MimecastGroupMember {
     $jsonBody = "{
         ""data"": [
             {
-                ""id"": ""$ID"",
+                ""id"": ""$ID""
             }
         ]
     }"
